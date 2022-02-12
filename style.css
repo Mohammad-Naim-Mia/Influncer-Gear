@@ -3,7 +3,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .section{
-    margin-top: 25px;
+    margin-top: 30px;
     margin-left: 7%;
     margin-right: 7%;
 }
@@ -23,7 +23,7 @@ nav a{
 }
 .top-section{
     display: flex;
-    margin-top: 60px;
+    margin-top: 70px;
     margin-bottom: 60px;
 }
 .top-bar-text{
@@ -55,6 +55,8 @@ nav a{
 }
 hr{
     border: solid gray ;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .contant{
     margin-top: 70px;
@@ -110,4 +112,48 @@ hr{
 #read{
     color: #E02C6D;
     margin-left: 5px;
+}
+.footer-section{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.footer-img img{
+    width: 90%;
+    margin-left: 5%;
+}
+.footer-text{
+    width: 50%;
+    margin-left: 12%;
+}
+.footer-caption{
+    font-size: 2.2em;
+}
+.footer-button{
+    background: #E02C6D;
+    padding: 10px 24px;
+    margin-top: 40px;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.footer-aria{
+    height: 200px;
+}
+footer{
+    background-color: #0A0826;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+}
+.a-social-b{
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.social{
+    color: #FFFFFF;
+    margin: 10px;
 }
