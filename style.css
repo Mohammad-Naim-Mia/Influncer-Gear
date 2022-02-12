@@ -56,3 +56,58 @@ nav a{
 hr{
     border: solid gray ;
 }
+.contant{
+    margin-top: 70px;
+}
+.contant-hadding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.single-contant{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+.box{
+    background-color: #F0F0F0;
+    width: 250px;
+    height: 460px;
+    padding: 20px;
+    margin: 3% auto;
+}
+.box img{
+    height: 190px;
+    width: 235px;
+    padding: 3%;
+}
+.contant-name{
+    font-size: 30px;
+    padding-bottom: ;
+}
+.price{
+    font-size: 25px;
+}
+.over{
+    font-size: 27px;
+}
+.fa-star{
+    font-size: 18px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.read-more{
+    padding: 30px;
+    display: flex;
+    justify-content: right;
+    margin-right: 4%;
+    color: #E02C6D;
+}
+#read{
+    color: #E02C6D;
+    margin-left: 5px;
+}
